@@ -1,4 +1,5 @@
 <img width="1817" height="319" alt="image" src="https://github.com/user-attachments/assets/69629afb-784d-4745-b065-e0ee22325dee" />
+
 **Overview**
 RingBuffer is a fixed-size circular buffer designed to efficiently store and manage a collection of main.java.org.example.Data objects in a continuous loop. Once the buffer reaches its maximum capacity, new elements overwrite the oldest data, making it ideal for situations where only the most recent data is relevant, such as sensor readings or real-time event logs.
 
