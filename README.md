@@ -63,7 +63,7 @@ Advances nextRead index as it emits.
 
 If no new data is available, returns an empty list.
 
-Usage and Behavior
+Usage and Behavior:
 The buffer works efficiently for streaming and cyclic data writing scenarios.
 
 It prevents memory overhead by reusing the same fixed-size array.
