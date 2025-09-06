@@ -34,7 +34,7 @@ class RingBuffer {
         }
     }
 
-    // Emit returns all data in main.java.org.example.RingBuffer since the last call to Emit.
+    // Emit returns all data in main.java.org.example.RingBuffer since the last call to Emit(to be pushed)
     // If no data has been written since the last call to Emit,
     // an empty list is returned.
     public List<Data> emit() {
